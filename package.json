@@ -1,7 +1,7 @@
 {
   "name": "statto-client",
   "description": "A client for statto - easy to use.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
