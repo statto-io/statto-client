@@ -4,7 +4,7 @@ A client for statto - easy to use.
 
 ## Synopsis ##
 
-``js
+```js
 var stattoClient = require('statto-client')
 
 // create a client (also takes params for host and port
