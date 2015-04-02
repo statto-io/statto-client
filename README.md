@@ -19,6 +19,9 @@ client.send('m:mem.free.tatooine:111964160') // tatooine is the server
 
 // a timer - the elapsed request time to a database
 client.send('t:db.time:23') // e.g. 23ms
+
+// a set - the value to increment
+client.send('t:user-agent:Mozilla/5.0')
 ```
 
 You can also send multiple stats in the same packet. To do that just pass an array
